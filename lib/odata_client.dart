@@ -1,1 +1,1 @@
-export 'package:odata_client/src/client.dart';
+export 'src/client.dart';
