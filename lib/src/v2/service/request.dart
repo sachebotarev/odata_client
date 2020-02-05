@@ -1,7 +1,14 @@
 import 'package:odata_client/src/service/service.dart';
 
+enum HttpRequestType {
+  GET,
+  POST,
+  PUT,
+  DELETE
+}
+
 class  ODataHttpRequest {
-  Service _service;
+
 
   String getPath(){
 
